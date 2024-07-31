@@ -1,27 +1,11 @@
-# React + TypeScript + Vite
+# Pokemon Battle
+Practicing my react skills with a card battler prototype. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What I learned
+This was my first time dealing with multiple states and sharing them across components. I discovered a lot about the inner working of the useState hook through this project.
+Fetching and displaying data with fetch(), along with error handling in typescript.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Next steps
+I would like to revisit this in the future as a 'Top Trumps' style pokemon game.
+I need to focus on caching my results from the fetch calls to save some time.
+Delving into how to make the game 'turn based' is going to be fun.
